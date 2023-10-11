@@ -3,7 +3,7 @@
     var scriptTag = document.querySelector("script[data-url]");
     var customUrl =
       (scriptTag && scriptTag.getAttribute("data-url")) ||
-      "https://devhunt.org/";
+      "https://aitoprank.com/";
 
     var divElement = document.createElement("div");
 
@@ -11,10 +11,10 @@
     <div class="dh-banner">
     <div class="banner-container">
       <div class="content">
-        <p>We are live on DevHunt: tool of the week contest</p>
+        <p>We are live on AI Top Rank: AI Product of the Week contest</p>
       </div>
       <a href="${customUrl}" target="_blank" class="btn">
-        check it out
+        Check it out
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
