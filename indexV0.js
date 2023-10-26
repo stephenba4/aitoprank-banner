@@ -11,7 +11,7 @@
     <div class="dh-banner">
     <div class="banner-container">
       <div class="content">
-        <p>We are live on AI Top Rank: AI Product of the Week contest</p>
+        <p>We are live on AI Top Rank: AI Product of the Week contest.</p>
       </div>
       <a href="${customUrl}" target="_blank" class="btn">
         Check it out
@@ -272,11 +272,11 @@
       .dh-banner{
         border-bottom-width: 1px;
         --tw-border-opacity: 1;
-        border-color: rgb(30 41 59 / var(--tw-border-opacity));
+        border-color: rgba(50, 50, 50, var(--tw-border-opacity));
         --tw-bg-opacity: 1;
-        background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+        background-color: rgba(20, 20, 20, var(--tw-bg-opacity));
         --tw-text-opacity: 1;
-        color: rgb(241 245 249 / var(--tw-text-opacity));
+        color: rgba(243, 240, 250, var(--tw-text-opacity));
       }
       
       .dh-banner .banner-container{
@@ -319,12 +319,13 @@
         justify-content: center;
         font-weight: 500;
         --tw-text-opacity: 1;
-        color: rgb(248 250 252 / var(--tw-text-opacity));
+        color: rgba(123, 66, 255, var(--tw-text-opacity));
       }
       
-      .dh-banner .banner-container .btn:hover{
+      .dh-banner .banner-container .btn:hover {
         -webkit-text-decoration-line: underline;
-                text-decoration-line: underline;
+        text-decoration-line: underline;
+        color: #9F75FF;
       }
       
       .dh-banner .banner-container .btn svg{

@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 .dh-banner {
-  @apply border-b border-slate-800 bg-slate-900 text-slate-100;
+  @apply border-b bg-text;
+  border-color: #323232;
+  background-color: #141414;
+  color: #F3F0FA;
 }
 
 .dh-banner .banner-container {
@@ -15,11 +18,13 @@
 }
 
 .dh-banner .banner-container .btn {
-  @apply inline-flex flex-none items-center justify-center font-medium text-slate-50;
+  @apply inline-flex flex-none items-center justify-center font-medium;
+  color: #7b42ff;
 }
 
 .dh-banner .banner-container .btn:hover {
   @apply underline;
+  color: #9F75FF;
 }
 
 .dh-banner .banner-container .btn svg {
